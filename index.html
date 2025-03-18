@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Value Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Object Value Translator</h1>
+
+        <div class="language-selection">
+            <div class="language-group">
+                <label for="sourceLanguage">Source Language:</label>
+                <select id="sourceLanguage"></select>
+            </div>
+            <div class="language-group">
+                <label for="targetLanguage">Target Language:</label>
+                <select id="targetLanguage"></select>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <h2>Input Object(s)</h2>
+            <p class="description">Enter one or more JavaScript objects, comma-separated. Example: { name: "Hello" }, {
+                title: "World" }</p>
+            <textarea id="inputObject" rows="10" placeholder="Enter your JavaScript objects here..."></textarea>
+        </div>
+
+        <button id="translateBtn">Translate Values</button>
+
+        <div class="output-area">
+            <h2>Translated Object</h2>
+            <pre id="outputObject"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
