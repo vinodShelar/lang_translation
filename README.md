@@ -47,7 +47,7 @@ The translated result will appear in the output textarea.
 
 ---
 
-## 📡 About MyMemory Translation API
+## 📡 About Google Public Translation API
 
 - Free API with some limits  
 - Uses a **translation memory database** for accuracy  
