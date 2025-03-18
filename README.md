@@ -94,4 +94,4 @@ Stay updated with the latest enhancements and language additions.
 🐦 X: https://x.com/th_v_slr
 🌐 medium:https://x.com/th_v_slr
 
-> **"Simplify language translation for developers and businesses – One JSON at a time!"**
+> **"Simplify language translation for developers and businesses – Multiple Objects/Json at a time!"**
